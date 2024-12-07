@@ -21,7 +21,7 @@ body {
 nav {
   background: rgba(0, 0, 0, 0.6); /* Fondo igual al del contenido principal */
   padding: 10px 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
@@ -45,7 +45,7 @@ nav {
     text-decoration: none;
     color: white;
     padding: 8px 16px; /* Espaciado interno para hacer el diseño más claro */
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
   }
@@ -198,6 +198,7 @@ header h1 {
   header h1 {
     font-size: 30px;
   }
+}
 
   .menu li {
     font-size: 16px;
@@ -205,6 +206,17 @@ header h1 {
 
   .main-content {
     font-size: 14px;
+  }
+  /* Ajustes responsivos para asegurar que el menú siempre se vea bien */
+@media (orientation: portrait), (max-width: 768px) {
+  .menu {
+    gap: 20px; /* Mantener el espaciado constante incluso en dispositivos más pequeños */
+  }
+}
+
+@media (orientation: landscape) {
+  .menu {
+    gap: 20px;
   }
 }
 
