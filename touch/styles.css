@@ -1,69 +1,9 @@
-
-* {
+body {
+    background: url(assets/images/minecraft-fondo.gif) no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Estilizando el encabezado */
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-}
-
-/* Estilizando el menú de navegación */
-nav {
-    background: #555;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Estilizando el contenido principal */
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-
-    body {
-        font-family: Arial, sans-serif;
-        background-image: url(C:\Users\kali\html\mis-video-juegos-favoritos\images\minecraft-fondo.gif.gif);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        color: #333;
-    }
-    
-}
 
