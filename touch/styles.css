@@ -12,8 +12,13 @@ body {
     color: white; 
     font-size: 24px;
     font-family: Arial, sans-serif;
-  
-h1 { color: white;}
-  
 }
-
+  
+    title {
+        color: rgb(255, 255, 255); 
+        font-family:  'Hanken Grotesk';
+        font-size: 36px; 
+        text-align: center; 
+        margin-top: 10px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    }
