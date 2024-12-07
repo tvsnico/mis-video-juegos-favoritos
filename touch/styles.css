@@ -74,13 +74,13 @@ header h1 {
 .contenido-principal {
   background: rgba(0, 0, 0, 0.5); /* Haz el fondo más claro */
   color: white;
-  padding: 20px;
+  padding: 10px;
   max-width: 800px;
   margin: 150px auto 0 auto;
   font-family: 'Roboto', sans-serif;
   border-radius: 8px;
   text-align: center;
-  font-size: 25px; /* Aumentar el tamaño del texto principal */
+  font-size: 30x; /* Aumentar el tamaño del texto principal */
 }
 
 
@@ -150,11 +150,11 @@ header h1 {
   }
 
   .menu li {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .contenido-principal {
-    font-size: 14px;
+    font-size: 25px;
   }
 }
 
