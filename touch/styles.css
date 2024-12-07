@@ -139,55 +139,28 @@ header h1 {
 
 /* Responsividad con Media Queries */
 @media (max-width: 768px) {
-  /* Ajustar el tamaño del encabezado en dispositivos móviles */
   header h1 {
     font-size: 40px;
   }
 
-  /* Cambiar el diseño del menú para ser vertical en pantallas pequeñas */
-  nav .menu {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-
-  /* Contenido más accesible en pantallas pequeñas */
-  .main-content {
-    padding: 15px;
-    margin: 100px auto 0 auto;
+  /* Ajuste del espaciado entre elementos */
+  .menu {
+    gap: 15px;
   }
 }
 
-/* Ajustes para teléfonos muy pequeños */
 @media (max-width: 480px) {
   header h1 {
     font-size: 30px;
   }
-}
 
   .menu li {
     font-size: 16px;
   }
 
-  .main-content {
+  .contenido-principal {
     font-size: 14px;
   }
-  /* Ajustes responsivos para asegurar que el menú siempre se vea bien */
-@media (orientation: portrait), (max-width: 768px) {
-  .menu {
-    gap: 20px; /* Mantener el espaciado constante incluso en dispositivos más pequeños */
-  }
-}
-
-@media (orientation: landscape) {
-  .menu {
-    gap: 20px;
-  }
-}
-  @media (max-width: 768px) {
-    nav .menu {
-      display: flex;
-    }
 }
 
 
