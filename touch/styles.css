@@ -31,12 +31,11 @@ nav {
   list-style: none; /* Quitar los estilos por defecto de lista */
   display: flex; /* Alinear los elementos horizontalmente */
   justify-content: center; /* Centrar horizontalmente */
-  gap: 30px; /* Espacio entre cada elemento */
+  gap: 20px; /* Espacio entre cada elemento */
   padding: 0;
   margin: 0;
-  flex-wrap: nowrap;
-  }
-  
+  flex-direction: row; /* Se mantiene en fila horizontal */
+}
   .menu li {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 20px;
