@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Estilado para el fondo y el contenido */
+/* Estilado para el fondo */
 body {
   background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
   background-size: cover;
@@ -19,38 +19,39 @@ body {
   align-items: center;
 }
 
-/* Header */
+/* Estilado del encabezado */
 header h1 {
   color: rgb(255, 255, 255);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 60px;
   text-align: center;
   position: relative;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  margin-top: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin: 20px 0; /* Espacio entre el encabezado y la siguiente sección */
 }
 
-/* Menú de Navegación */
+/* Menú de navegación en el lateral */
 nav {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
-  width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  left: 0;
+  height: 100%;
+  padding: 10px 0;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7);
 }
 
 .menu {
   list-style: none;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
 }
 
 .menu li {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 .menu li a {
@@ -65,71 +66,48 @@ nav {
 
 /* Contenido Principal */
 .main-content {
-  max-width: 800px;
+  margin-left: 250px; /* Deja espacio para el menú lateral */
+  max-width: 700px;
   background: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 8px;
   color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  margin: 100px auto 0 auto;
-  line-height: 1.6;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  line-height: 1.8;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  flex-grow: 1;
 }
 
-/* Responsividad */
+/* Responsividad para móviles */
 @media (max-width: 768px) {
-  header h1 {
-    font-size: 40px;
+  nav {
+    position: static;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .main-content {
+    margin-left: 0;
+    max-width: 90%;
   }
 }
 
 @media (max-width: 480px) {
   header h1 {
-    font-size: 30px;
-  }
-
-  .main-content {
-    padding: 10px;
-  }
-}
-
-/* Responsividad con Media Queries */
-@media (max-width: 768px) {
-  /* Ajustar el tamaño del encabezado en dispositivos móviles */
-  header h1 {
     font-size: 40px;
   }
-
-  /* Cambiar el diseño del menú para ser vertical en pantallas pequeñas */
-  nav .menu {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-
-  /* Contenido más accesible en pantallas pequeñas */
-  .main-content {
-    padding: 15px;
-    margin: 100px auto 0 auto;
-  }
 }
-
-/* Ajustes para teléfonos muy pequeños */
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 30px;
-  }
 
   .menu li {
     font-size: 16px;
   }
-
-  .main-content {
-    font-size: 14px;
-  }
-}
-
 
 
 
