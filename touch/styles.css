@@ -14,26 +14,27 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Estilado del Encabezado */
+/* Header */
 header h1 {
   color: rgb(255, 255, 255);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 60px;
   text-align: center;
-  position: absolute;
-  top: 2%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  position: relative;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
 }
 
-/* Estilado del Menú */
+/* Menú de Navegación */
 nav {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
@@ -47,8 +48,50 @@ nav {
 }
 
 .menu li {
-  font-family: 'Press Start 2'
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
 
+.menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: #ffa500;
+}
+
+/* Contenido Principal */
+.main-content {
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 100px auto 0 auto;
+  line-height: 1.6;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
 }
 
 /* Responsividad con Media Queries */
