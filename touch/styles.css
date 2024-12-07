@@ -1,14 +1,9 @@
+
 body {
-    body {
-        body {
-            background-color: red; 
-        }
-        
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    
+    background-image: url(../images/fondoweb.jpg)
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0; 
 }
-
-
