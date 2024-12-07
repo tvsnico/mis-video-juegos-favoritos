@@ -1,22 +1,33 @@
-
-
+/* Estilo general para el fondo */
 body {
-  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin: 0; 
   height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+  font-size: 24px;
+  font-family: Arial, sans-serif;
 }
 
-
+/* Encabezado con estilo retro */
 header h1 {
-  color: white;
-  font-family: 'Press Start 2P', sans-serif; /* Cambia la fuente para ese estilo retro */
-  font-size: 48px;
-  text-align: center;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sombra debajo del texto */
+color: rgb(255, 255, 255); 
+font-family: 'Hanken Grotesk', sans-serif; 
+font-size: 60px; /* Ajusta el tamaño según prefieras */
+text-align: center;
+text-transform: uppercase;
+position: absolute; /* Usamos posición absoluta para colocarlo */
+top: 10%; /* Ajusta el espacio desde la parte superior */
+left: 50%; /* Centrado horizontalmente */
+transform: translateX(-50%); /* Corrige la posición horizontal */
+background-clip: text;
+-webkit-background-clip: text;
+background: linear-gradient(to right, #ff8a00, #e52e71); /* Gradiente opcional */
+-webkit-text-fill-color: transparent; /* Para el gradiente */
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Sombra debajo del texto */
 }
