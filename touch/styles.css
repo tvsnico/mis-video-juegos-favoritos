@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(../imagenes/fondo.jpg.jpg); 
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -12,5 +12,10 @@ body {
     color: white; 
     font-size: 24px;
     font-family: Arial, sans-serif;
+  
+h1 {
+    color: black;
+  }
+  
 }
 
