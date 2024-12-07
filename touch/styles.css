@@ -1,32 +1,100 @@
-/* Configuración del fondo */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilado para el fondo y el contenido */
 body {
   background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed; /* Mantener el fondo fijo */
-  margin: 0;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
   font-family: Arial, sans-serif;
+  color: white;
 }
 
-/* Estilo del título */
+/* Estilado del Encabezado */
 header h1 {
   color: rgb(255, 255, 255);
-  font-family: 'Press Start 2P', sans-serif; /* Volver a la fuente anterior */
-  font-size: 36px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 60px;
   text-align: center;
-  position: absolute; /* Mantener la posición fija */
-  top: 10%;
+  position: absolute;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
+
+/* Estilado del Menú */
+nav {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: #ffa500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Ajustes responsivos para el título en cualquier tamaño de pantalla */
 @media (max-width: 768px) {
