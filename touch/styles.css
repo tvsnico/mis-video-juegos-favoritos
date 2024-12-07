@@ -12,7 +12,7 @@ body {
     color: white; 
     font-size: 24px;
     font-family: Arial, sans-serif;
-}
+
   
 * Encabezado con estilo retro *
 header h1 {
@@ -30,3 +30,5 @@ header h1 {
 header h1:hover {
   transform: scale(1.1);
 }  
+
+}
