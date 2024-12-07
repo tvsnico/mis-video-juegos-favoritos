@@ -16,13 +16,14 @@ body {
 
 /* Encabezado con estilo retro */
 header h1 {
+  margin-top: 20px; /* Espacio ajustado desde la parte superior */
 color: rgb(255, 255, 255); 
 font-family: 'Hanken Grotesk', sans-serif; 
 font-size: 60px; /* Ajusta el tamaño según prefieras */
 text-align: center;
 text-transform: uppercase;
 position: absolute; /* Usamos posición absoluta para colocarlo */
-top: 10%; /* Ajusta el espacio desde la parte superior */
+top: 5%; /* Ajusta el espacio desde la parte superior */
 left: 50%; /* Centrado horizontalmente */
 transform: translateX(-50%); /* Corrige la posición horizontal */
 background-clip: text;
