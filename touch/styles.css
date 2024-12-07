@@ -14,12 +14,19 @@ body {
     font-family: Arial, sans-serif;
 }
   
+* Encabezado con estilo retro *
 header h1 {
-    color: rgb(255, 255, 255); 
-    font-family: 'Hanken Grotesk', sans-serif; 
-    font-size: 40px; 
-    text-align: center; 
-    margin-top: 10%;
-    text-shadow: rgba(0, 0, 0, 0.61) 0 -2px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 3px 3px 0 #FF0000, 6px 6px 0 #000000, 0 0 10px #FFFFFF;
+  text-align: center;
+  margin: 0;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
 }
-    
+
+/* Efecto hover con escala */
+header h1:hover {
+  transform: scale(1.1);
+}  
