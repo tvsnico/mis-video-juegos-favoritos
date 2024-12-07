@@ -137,14 +137,14 @@ header h1 {
 
 
 /* Responsividad con Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 896px) {
   header h1 {
     font-size: 40px;
   }
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 414x) {
   header h1 {
     font-size: 30px;
   }
