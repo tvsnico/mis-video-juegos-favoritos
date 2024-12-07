@@ -144,19 +144,20 @@ header h1 {
 
 }
 
-@media (max-width: 414x) {
+@media (max-width: 414px) {
   header h1 {
     font-size: 30px;
   }
 
   .menu li {
-    font-size: 10px;
+    font-size: 7px;
   }
 
   .contenido-principal {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
+
 
 
 
