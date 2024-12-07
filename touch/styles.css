@@ -28,10 +28,31 @@ nav {
 }
 
 .menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: space-around; /* Distribuye el espacio uniformemente entre los elementos */
+    gap: 20px; /* Espacio entre cada elemento */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px; /* Espaciado interno para hacer el diseño más claro */
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu li a:hover {
+    background-color: #ffa500;
+    color: black;
+  
+  
 }
 
 .menu li {
@@ -86,11 +107,11 @@ header h1 {
 
 /* Contenido Principal */
 .contenido-principal {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5); /* Haz el fondo más claro */
   color: white;
   padding: 20px;
   max-width: 800px;
-  margin: 20px auto 0 auto;
+  margin: 120px auto 0 auto;
   font-family: 'Roboto', sans-serif;
   border-radius: 8px;
   text-align: center;
