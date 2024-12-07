@@ -1,0 +1,12 @@
+/* Contenido Principal */
+.main-content {
+    background: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno alrededor del texto */
+    max-width: 800px; /* Ancho máximo para el texto */
+    margin: 120px auto 0 auto; /* Centrado en la página */
+    font-family: 'Roboto', sans-serif; /* Estilo de fuente */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: justify; /* Alineación del texto para una mejor legibilidad */
+  }
+  
