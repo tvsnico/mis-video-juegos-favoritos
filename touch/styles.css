@@ -19,39 +19,39 @@ body {
 
 /* Estilado del Menú */
 nav {
-  background: rgba(0, 0, 0, 0.6); /* Fondo igual al del contenido principal */
-  padding: 10px 0;
-  position: absolute;
+  background: rgb(138 48 48 / 60%); /* Fondo igual al del contenido principal */
+  padding: 13px 0;
+  position:fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 57%);
 }
 
 .menu {
   list-style: none; /* Quitar los estilos por defecto de lista */
   display: flex; /* Alinear los elementos horizontalmente */
   justify-content: center; /* Centrar horizontalmente */
-  gap: 20px; /* Espacio entre cada elemento */
+  gap: 10px; /* Espacio entre cada elemento */
  
   flex-direction: row  !important;/* Se mantiene en fila horizontal */
 }
   .menu li {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .menu li a {
     text-decoration: none;
-    color: white;
+    color: #f9f9f9;
     transition: color 0.3s ease;
     padding: 8px 12px;
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 2px solid #bc4f47a1;
+    border-radius: 10px;
   }
   
   .menu li a:hover {
-    background-color: #ffa500;
-    color: black;
+    background-color: #c83e3573;
+    color: #ffffff;
   
   
 }
@@ -61,26 +61,30 @@ nav {
 header {
   margin: 80px 0 20px 0;
   text-align: center;
+  width:100%;
+  
+
+  
 }
 
 header h1 {
   color: rgb(255, 255, 255);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 60px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 5px rgb(0 0 0);
 }
 
 /* Contenido Principal */
 .contenido-principal {
-  background: rgba(0, 0, 0, 0.5); /* Haz el fondo más claro */
+  background: rgb(0 0 0 / 35%); /* Haz el fondo más claro */
   color: white;
   padding: 10px;
-  max-width: 800px;
-  margin: 150px auto 0 auto;
+  max-width: 8000px;
+  margin: 70px auto 0 auto;
   font-family: 'Roboto', sans-serif;
-  border-radius: 8px;
-  text-align: center;
-  font-size: 30x; /* Aumentar el tamaño del texto principal */
+  border-radius: 1px;
+  text-align: justify;
+  font-size: 23px; /* Aumentar el tamaño del texto principal */
 }
 
 
@@ -150,13 +154,14 @@ header h1 {
   }
 
   .menu li {
-    font-size: 7px;
+    font-size: 8px;
   }
 
   .contenido-principal {
     font-size: 20px;
   }
 }
+
 
 
 
